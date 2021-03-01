@@ -1,0 +1,39 @@
+PODS:
+  - Bugsee (1.27.2)
+  - raygun4apple (1.5.0)
+  - Sentry (6.2.0):
+    - Sentry/Core (= 6.2.0)
+  - Sentry/Core (6.2.0)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - Bugsee
+  - raygun4apple
+  - Sentry (from `https://github.com/getsentry/sentry-cocoa.git`, tag `6.2.0`)
+  - SnapKit (~> 5.0.0)
+
+SPEC REPOS:
+  trunk:
+    - Bugsee
+    - raygun4apple
+    - SnapKit
+
+EXTERNAL SOURCES:
+  Sentry:
+    :git: https://github.com/getsentry/sentry-cocoa.git
+    :tag: 6.2.0
+
+CHECKOUT OPTIONS:
+  Sentry:
+    :git: https://github.com/getsentry/sentry-cocoa.git
+    :tag: 6.2.0
+
+SPEC CHECKSUMS:
+  Bugsee: 690f60acd196fb628c167f26ab13846c1a19c533
+  raygun4apple: fc44d508b1bf69240ae1c418587948e50135a846
+  Sentry: 972bd51ddb2aa3430f2c81fadb975fe27f47c2f4
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: 0d1d87ba5a4cfb48ca40d23363c73d584dad2668
+
+COCOAPODS: 1.10.1
